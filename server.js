@@ -4,7 +4,7 @@ const { Server } = require('socket.io');
 const escpos = require('escpos');
 
 // Replace with your printer's IP address
-const printerIP = '192.168.1.100';
+const printerIP = '192.168.1.188';
 const printerPort = 9100;
 
 const app = express();
